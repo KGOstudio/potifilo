@@ -1,0 +1,24 @@
+import React from 'react'
+import Nav from './sections/nav'
+import Hero from './sections/Hero'
+import About from './sections/About'
+import Projects from './sections/projects'
+import Clinet from './sections/Clinet'
+import Contact from './sections/contact'
+import Footer from './sections/Footer'
+import Experience from './sections/Experience'
+
+export default function App() {
+  return (
+    <div className="w-full mx-auto">
+      <Nav />
+      <Hero />
+      <About />
+      <Projects />
+      <Clinet />
+      <Experience />
+      <Contact />
+      <Footer />
+    </div>
+  )
+}
