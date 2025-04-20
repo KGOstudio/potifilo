@@ -2,7 +2,6 @@ import React from 'react'
 import Nav from './sections/nav'
 import Hero from './sections/Hero'
 import About from './sections/About'
-import Projects from './sections/projects'
 import Clinet from './sections/Clinet'
 import Contact from './sections/contact'
 import Footer from './sections/Footer'
@@ -14,7 +13,7 @@ export default function App() {
       <Nav />
       <Hero />
       <About />
-      <Projects />
+      {/* <Projects /> */}
       <Clinet />
       <Experience />
       <Contact />
